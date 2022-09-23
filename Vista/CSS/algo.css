@@ -1,0 +1,79 @@
+
+/* Jquery validate */
+/* div.invalid-feedback {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+} */
+
+input.error {
+    border: 1px solid red;
+    font-weight: 300;
+    color: red;
+}
+
+div.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+div.error.fail-alert {
+    /* border: 2px solid red;
+    border-radius: 4px; */
+    line-height: 1;
+    padding: 2px 0 6px 6px;
+    /* background: #ffe6eb; */
+}
+
+input.valid.success-alert {
+    border: 2px solid #4CAF50;
+    color: green;
+}
+
+/* input.error, textarea.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+} */
+
+
+/* bootstrapValidator */
+
+.has-error.form-control-feedback {
+    color: #E74C3C;
+    border: 1px solid red;
+}
+.has-success .form-control-feedback {
+    color: #18BCA0;
+}
+
+.has-error input{
+    border: 1px solid red;
+    font-weight: 300;
+    color: red;
+}
+.has-success input{
+    border: 2px solid #4CAF50;
+    color: green;
+}
+
+div.help-block.fail-alert {
+    /* border: 2px solid red;
+    border-radius: 4px; */
+    line-height: 1;
+    padding: 2px 0 6px 6px;
+    /* background: #ffe6eb; */
+}
+small.help-block{
+    color: red;
+}
