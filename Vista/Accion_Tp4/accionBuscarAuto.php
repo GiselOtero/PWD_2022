@@ -13,7 +13,7 @@ if(count($listaAutos)>0){
     ?>
 <table class="table table-striped table-hover">
     <thead>
-        <tr>
+        <tr class="table-dark">
             <th scope="col">Patente</th>
             <th scope="col">Marca</th>
             <th scope="col">Modelo</th>
@@ -35,9 +35,9 @@ if(count($listaAutos)>0){
    </tbody>
 </table>
 <?php }else { ?>
-    <div class="card border-danger mb-3" style="">
+    <div class="card border-danger mb-3" style=" background-color:#ffb3b3">
         <div class="card-body text-danger">
-            <h5 class="card-title"> No se Encontro datos almacenados </h5>
+            <h5 class="card-title fw-bold"> No se Encontro datos almacenados </h5>
         </div>
     </div>
 

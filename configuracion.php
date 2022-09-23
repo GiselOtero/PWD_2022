@@ -5,7 +5,9 @@ header ("Cache-Control: no-cache, must-revalidate ");
 // CONFIGURACION APP//
 /////////////////////////////
 
-$PROYECTO ='ProgramacionWebDinamica22/TrabajosPracticosBorrador';
+/* $PROYECTO ='ProgramacionWebDinamica22/TrabajosPracticosBorrador'; */
+$PROYECTO ='PWD_2022';
+
 
 //variable que almacena el directorio del proyecto
 $ROOT =$_SERVER['DOCUMENT_ROOT']."/$PROYECTO/";

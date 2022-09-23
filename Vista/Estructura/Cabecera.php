@@ -42,7 +42,7 @@ include_once "../../configuracion.php";
 </head>
 <body>
     <header class="">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark" >
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">PWD</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,6 +106,8 @@ include_once "../../configuracion.php";
                             <li><a class="dropdown-item" href="../TP4/listaPersonas.php">Lista Personas</a></li>
                             <li><a class="dropdown-item" href="../TP4/cambioDuenio.php">Cambio Due&ntilde;o</a></li>
                             <li><a class="dropdown-item" href="../TP4/buscarPersona.php">Buscar Persona</a></li>
+                            <li><a class="dropdown-item" href="../TP4/buscarAuto.php">Buscar Auto</a></li>
+
                             <li><a class="dropdown-item" href="../TP4/NuevaPersona.php">Nueva Persona</a></li>
                             <li><a class="dropdown-item" href="../TP4/NuevoAuto.php">Nuevo Auto</a></li>
 
@@ -127,4 +129,4 @@ include_once "../../configuracion.php";
 
 
 
-    <main class="container p-2"><!-- </main> -->
+    <main class="container p-3 mt-2"><!-- </main> -->

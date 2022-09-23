@@ -45,15 +45,15 @@ if(count($listaPersonas) == 0){
 
 
 <?php if($respuesta['exito'] == true){ ?>
-    <div class="card border-success mb-3" style="">
+    <div class="card border-success mb-3" style="background-color: #ccffdd">
         <div class="card-body text-success">
             
 <?php }else {?>
-    <div class="card border-danger mb-3" style="">
+    <div class="card border-danger mb-3" style="background-color:#ffb3b3">
        <div class="card-body text-danger">
 
 <?php } ?>
-        <h5 class="card-title"> <?php echo $respuesta['mensaje']; ?> </h5>
+        <h5 class="card-title fw-bold"> <?php echo $respuesta['mensaje']; ?> </h5>
         <?php echo $respuesta['link'] ?>
     </div>
 </div>

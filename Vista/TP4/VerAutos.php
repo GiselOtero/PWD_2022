@@ -6,13 +6,14 @@
   
     if(count($listaAutos)>0){
 ?>
-        <table class="table table-striped table-hover">
+       <div class="table-responsive">
+       <table class="table table-striped table-hover table-primary">
             <thead>
-                <tr>
+                <tr class="table-dark">
                     <th scope="col">Patente</th>
                     <th scope="col">Marca</th>
                     <th scope="col">Modelo</th>
-                    <th scope="col">Duenio</th>
+                    <th scope="col">Dueño</th>
 
                 </tr>
             </thead>
@@ -26,7 +27,7 @@
             echo "<td>".$unAuto->getPatente()."</td>";
             echo "<td>".$unAuto->getMarca()."</td>";
             echo "<td>".$unAuto->getModelo()."</td>";
-            echo "<td>".$unAuto->getDuenio()->getNroDni()."</td>";
+            echo "<td>".$unAuto->getDuenio()->getApellido()." ".$unAuto->getDuenio()->getNombre()."</td>";
             echo "</tr>";
         }
     }
@@ -36,7 +37,7 @@
 
 </table>
 
-
+</div>
 
 
 <?php

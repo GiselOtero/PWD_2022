@@ -46,14 +46,14 @@ if($respuesta['exito'] && $objAuto->modificacion($arreglo) ){
  }*/
 
 if($respuesta['exito']){
-    echo '<div class="card border-success mb-3" style="">';
+    echo '<div class="card border-success mb-3" style="background-color: #ccffdd">';
         echo '<div class="card-body text-success">';
 }else{
-    echo '<div class="card border-danger mb-3" style="">';
-        echo '<div class="card-body text-danger">';
+    echo '<div class="card border-danger mb-3" style="background-color:#ffb3b3">';
+        echo '<div class="card-body text-danger ">';
 }
 
-    echo '<h5 class="card-title">'.$respuesta['resultado'].'</h5>';
+    echo '<h5 class="card-title fw-bold">'.$respuesta['resultado'].'</h5>';
     
  echo '</div>';
   

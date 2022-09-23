@@ -7,9 +7,10 @@
   
     if(count($listaPersonas)>0){
 ?>
-        <table class="table table-striped table-hover">
+       <div class="table-responsive">
+       <table class="table table-striped table-hover table-primary">
             <thead>
-                <tr>
+                <tr class="table-dark">
                     <th scope="col">Nro Dni</th>
                     <th scope="col">Apellido</th>
                     <th scope="col">Nombre</th>
@@ -64,6 +65,8 @@
 </tbody>
 
 </table>
+
+</div>
 <?php
     include_once "../Estructura/Footer.php";
 ?>

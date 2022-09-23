@@ -408,7 +408,33 @@ $("#tp4_nuevaPersona").validate({
         },
 
     },
-    /* mensaje:{}, */
+    messages:{
+        NroDni:{
+            required:" Este Campo es requerido ",
+            number:" Cadena invalida ",
+            minlength: " Debe tener al menos 6 caracteres "
+        },
+        Apellido:{
+            required:" Este Campo es requerido ",
+            lettersonly: " Cadena Invalida",
+            minlength: " Debe tener al menos 3 caracteres ",
+        },
+
+        Nombre:{
+            required:" Este Campo es requerido ",
+            lettersonly: " Cadena Invalida",
+            minlength: " Debe tener al menos 3 caracteres ",
+        },
+        fechaNac:{
+            required:" Este Campo es requerido ",
+        },
+        Telefono:{
+            required:" Este Campo es requerido ",
+        },
+        Domicilio:{
+            required:" Este Campo es requerido ",
+        }
+    },
 });
 
 $('#tp4_cambioDuenio').validate({
@@ -506,8 +532,28 @@ $("#tp4_buscarPersona").validate({
         },
     },
     messages:{
+      NroDni: { 
         required:" Este Campo es requerido ",
         number:" Cadena invalida ",
         minlength: " Debe tener al menos 6 caracteres ",
-    }
+    },
+    },
+});
+
+$("#tp4_buscarAuto").validate({
+    errorElement:"div",
+    errorClass: "error fail-alert",
+    validClass: "valid success-alert",
+    rules:{
+        Patente:{
+            required:true,
+            minlength:6,
+        },
+    },
+    messages:{
+       Patente:{
+            required:" Este Campo es requerido ",
+            minlength: " Debe tener al menos 6 caracteres ",
+        },
+    },
 });

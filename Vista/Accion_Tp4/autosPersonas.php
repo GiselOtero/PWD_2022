@@ -18,10 +18,10 @@ if(count($listaPersonas)>0){
     
 
 ?>
-<h5>Persona</h5>
-<table class="table table-striped table-hover">
+<h5 class="fw-bold m-3">Persona</h5>
+<table class="table  table-hover mb-3 table-primary">
     <thead>
-        <tr>
+        <tr class="table-dark">
             <th scope="col">Nro Dni</th>
             <th scope="col">Apellido</th>
             <th scope="col">Nombre</th>
@@ -45,19 +45,19 @@ if(count($listaPersonas)>0){
         ?>
     </tbody>
 </table>
-<h5>Autos Asociados</h5>
+<h5 class="fw-bold m-3">Autos Asociados</h5>
 <?php
 
     if(count($listaAutosPersona)>0){
     
 ?>
-    <table class="table table-striped table-hover">
+    <table class="table table-striped table-hover mt-3 table-primary">
         <thead>
-                <tr>
+                <tr class="table-dark">
                     <th scope="col">Patente</th>
                     <th scope="col">Marca</th>
                     <th scope="col">Modelo</th>
-                    <th scope="col">Duenio</th>
+                    <th scope="col">Dueño</th>
 
                 </tr>
         </thead>
