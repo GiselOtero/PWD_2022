@@ -51,21 +51,22 @@ include_once "../../configuracion.php";
                 <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="../index/index.php">Home</a>
                     </li>
+                    <!-- 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
                             Trabajo Practico 1
                         </a>
 
                         <ul class="dropdown-menu ">
                             <li><a class="dropdown-item" href="../TP1/Ejercicio1.php">Ejercicio 1</a></li>
                             <li><a class="dropdown-item" href="../TP1/Ejercicio2.php">Ejercicio 2</a></li>
-                            <!-- <li><hr class="dropdown-divider"></li> -->
+                            
                             <li><a class="dropdown-item" href="../TP1/Ejercicio3.php">Ejercicio 3</a></li>
                             <li><a class="dropdown-item" href="../TP1/Ejercicio4.php">Ejercicio 4</a></li>
                             <li><a class="dropdown-item" href="../TP1/Ejercicio5.php">Ejercicio 5</a></li>
-                            <!-- <li><hr class="dropdown-divider"></li> -->
+                            
                             <li><a class="dropdown-item" href="../TP1/Ejercicio6.php">Ejercicio 6</a></li>
                             <li><a class="dropdown-item" href="../TP1/Ejercicio7.php">Ejercicio 7</a></li>
                             <li><a class="dropdown-item" href="../TP1/Ejercicio8.php">Ejercicio 8</a></li>
@@ -74,6 +75,7 @@ include_once "../../configuracion.php";
 
 
                     </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Trabajo Practico 2</a>
                         <ul class="dropdown-menu ">
@@ -83,17 +85,18 @@ include_once "../../configuracion.php";
                     </li>
 
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Trabajo Practico 3
                         </a>
 
                         <ul class="dropdown-menu ">
                             <li><a class="dropdown-item" href="../TP3/Ejercicio1.php">Ejercicio 1</a></li>
                             <li><a class="dropdown-item" href="../TP3/Ejercicio2.php">Ejercicio 2</a></li>
-                            <!-- <li><hr class="dropdown-divider"></li> -->
+                            
                             <li><a class="dropdown-item" href="../TP3/Ejercicio3.php">Ejercicio 3</a></li>
                         </ul>
                     </li>
+ -->
                     <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Trabajo Practico 4
