@@ -4,17 +4,27 @@
 
     $datos=data_submitted();
     $objPersona= new AbmPersona();
-   
+    $dni['NroDni'] = $datos['NroDni'];
+
     $respuesta = array(
         'exito' => false,
         'mensaje' => "no se pudo realizar la accion nueva persona",
     ); 
     
+    $listaPersona = $objPersona->buscar($dni);
 
-    if( $objPersona->alta($datos)){
-        $respuesta['exito'] = true; 
-        $respuesta['mensaje'] = "El dato fue ingresado correctamente";
+    if(count($listaPersona)>0){
+        $respuesta['exito'] = false;
+        $respuesta['mensaje'] = " El numero de Dni ya se encuentra registrado ";
+    }else{
+        
+        if( $objPersona->alta($datos)){
+            $respuesta['exito'] = true; 
+            $respuesta['mensaje'] = "El dato fue ingresado correctamente";
+        }
+        
     }
+
 
 ?>
 <?php if($respuesta['exito']){ ?>

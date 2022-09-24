@@ -6,7 +6,8 @@ $objAuto = new AbmAuto();
 $objPersona = new AbmPersona();
 
 $datos['NroDni'] = $datos['DniDuenio'];
-$listaAuto = $objAuto->buscar($datos);
+$patente['Patente'] = $datos['Patente'];
+$listaAuto = $objAuto->buscar($patente);
 $listaPersonas = $objPersona->buscar($datos);
 
 $respuesta=array(

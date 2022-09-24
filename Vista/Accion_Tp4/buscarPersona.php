@@ -54,7 +54,7 @@
             </div>
             <div class="form-group mb-3">
                 <label class="form-label" for="fechaNac">Fecha Nacimiento</label>
-                <input class="form-control" id="fechaNac" name="fechaNac" type="date" value="<?php echo $unaPersona->getFechaNac()?>">
+                <input class="form-control" id="fechaNac" name="fechaNac" type="date" min="1922-01-01" max="2004-01-01" value="<?php echo $unaPersona->getFechaNac()?>">
             </div>
             <div class="form-group mb-3">
                 <label class="form-label" for="Telefono">Telefono</label>

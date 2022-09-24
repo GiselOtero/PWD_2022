@@ -35,7 +35,7 @@ include_once "../Estructura/Cabecera.php";
         </div>
         <div class="mb-3">
             <label for="fechaNac">Fecha Nacimiento: </label>
-            <input type="date" class="form-control" name="fechaNac" id="fechaNac"  required>
+            <input type="date" class="form-control" name="fechaNac" id="fechaNac" min="1920-01-01" max="2004-01-01" required>
             <!-- <input type="text" class="form-control" name="fechaNac" id="fechaNac" placeholder="aaaa-mm-dd" required> -->
         </div>
         <div class="mb-3">
